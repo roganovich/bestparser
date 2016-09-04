@@ -3,8 +3,6 @@
 <head>  
 <meta charset="utf-8">
 <title>BParser</title>
-<link rel="stylesheet" type="text/css" href="mysite.css">
-<script src="lib/jquery/src/jquery.js"></script>
 </head> 
 <body> 
     <h1>BParser</h1>
