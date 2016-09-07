@@ -24,7 +24,8 @@
                 $bp_da->getArticles();/*выводим на экран все артикулы*/
 		$bp_da->putArticlesToCSV();/*выводим в файл все артикулы*/
                   die(); 
-            $parser2 = new Builder('Rvi');
+                  
+                $parser2 = new Builder('Rvi');
                 $bp_rvi = $parser2->getParser('Rvi');
                 $bp_rvi->setParam('base_url','http://rvi-cctv.ru'); /*добавляем параметр базовой страницы*/
                 $bp_rvi->setParam('first_url','http://rvi-cctv.ru/catalog');
